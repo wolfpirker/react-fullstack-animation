@@ -31,6 +31,31 @@
                 CSSTRANSITIONS
 ========================================*/
 
+.cssSq {
+    background:red;
+    height: 100px;
+    opacity: 1;
+    transition: all 500ms ease;
+}
+
+.cssSq-enter-done {
+    background: blue;
+}
+
+.cssSq-enter.cssSq-enter-active {
+    opacity: 1;
+}
+
+.cssSq-exit.cssSq-exit-active {
+    background: green;
+}
+
+.cssSq-exit-done {
+    opacity: 0;
+}
+
+
+
 /*=======================================
                 TRANSITIONS GROUP 
 ========================================*/
